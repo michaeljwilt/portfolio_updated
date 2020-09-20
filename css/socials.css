@@ -1,0 +1,389 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  
+  /*----- Basic Styling ----*/
+  
+  body {
+    background-color: #384b66;
+    margin: 0;
+  }
+  
+  .main-header {
+    text-align: center;
+    padding-top: 40px;
+    color: #efc5bc;
+  }
+  
+  .s1 {
+    height: 100vh;
+    border-bottom: 3px solid black;
+  }
+  
+  .s2 {
+    height: 100vh;
+    background-color: #43464b;
+    border-bottom: 3px solid black;
+  }
+  
+  .main-header h1 {
+    padding-bottom:100px;
+    font-size: 40px;
+    text-decoration: none;
+    margin-top: 150px;
+  }
+  
+  .logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 100px;
+  }
+  
+  .resume {
+    border: none;
+    color: #384b66;
+    background-color: #efc5bc;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+  }
+  
+  .resume:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    
+  }
+  
+  .resume:click {
+    border: none;
+  }
+  
+  .arrow {
+    height: 50px;
+    width: 50px;
+    padding: 200px;
+  }
+  
+  .portfolio-heading {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 50px 0 25px;
+    color: #EFC4BA;
+    text-align: center;
+  }
+  
+  .projects {
+    margin: 50px 25px 0 25px;
+    text-align: center;
+    height: 100vh;
+  }
+  
+  .box1,
+  .box2, 
+  .box3 {
+    height: 250px;
+    width: 300px;
+    margin-top: 25px;
+    display: inline-block;
+  }
+  
+  
+  .box1 {
+    float: left;
+  }
+  
+  .box2 {
+    float: none;
+  }
+  
+  .box3 {
+    float: right;
+  }
+  
+  .web1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .live-button {
+    border: none;
+    color: black;
+    background-color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    width: 100%;
+  }
+  
+  .live-button:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .view-code {
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    width: 100%;
+  }
+  
+  .view-code:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  }
+  
+  
+  .contact-form {
+    align-content: center;
+  }
+  
+  
+  /*----- Navigation Bar -----*/
+  .navbar {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    word-spacing: 61px;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 100;
+    width: 100%;
+    background-color: #efc5bc;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  /*
+  .navbar2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    word-spacing: 60px;
+    padding-top: 15px;
+    padding-bottom: 125px;
+  }
+  */
+  
+  
+  a {
+    color: #384b66;
+    text-decoration:none;
+  }
+  
+  /*
+  a:visited {
+    color: red;
+    text-decoration:none;
+  }
+  */
+  
+  a:hover {
+    color: white;
+    text-decoration:none;
+  }
+  
+  a:active {
+    color: #efc5bc;
+    text-decoration:underline;
+  }
+  
+  
+  /*----- Project Buttons -----*/
+  
+  .project-buttons {
+    position: relative;
+    bottom: auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: 26em;
+  }
+  
+  
+  
+  
+  
+  
+  
+  /* Social Buttons CSS*/
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background: #394C65;
+  }
+  
+  .contact-heading {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 100px 0 100px;
+    color: #EFC4BA;
+    text-align: center;
+  }
+  
+  .social-heading {
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 4px;
+    padding: 200px 0 200px;
+    color: #EFC4BA;
+    text-align: center;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .avatar {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    margin: 0 670px;
+    padding-bottom: 50px;
+    border-bottom: 0;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0);
+  }
+  
+  .social-media a {
+    display: flex;
+    background: #e3edf7;
+    background: #f8f8ff;
+    height: 75px;
+    width: 75px;
+    margin: 0 15px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0);
+    transition: transform 0.5s;
+  }
+  
+  .social-media a i {
+    font-size: 35px;
+    color: #777;
+    transition: transform 0.5s;
+  }
+  
+  .social-media a:hover {
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+                inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    transform: translateY(2px);
+  }
+  
+  .social-media a:hover i {
+    transform: scale(0.90);
+  }
+  
+  
+  .social-media a:hover .fa-facebook {
+    color: #3b5998;
+  }
+  
+  .social-media a:hover .fa-linkedin {
+  /*  color: #00acee;*/
+    color: #0072b1;
+  }
+  
+  .social-media a:hover .fa-medium {
+    color: #3cb371;
+  }
+  
+  .social-media a:hover .fa-instagram {
+    color: #E1306C;
+  }
+  
+  .social-media a:hover .fa-youtube {
+    color: #f00;
+  }
+  
+  a:hover .fa-envelope-square {
+    color: #663399;
+  }
+  
+  
+  /****** Float Clearfix ******/
+  
+  .group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  /****** Media Queries ******/
+  
+  @media (max-width: 1080px) {
+    .box1,
+    .box2,
+    .box3 {
+      float: none;
+      margin: 0;
+    }
+  
+    .box2,
+    .box3 {
+      padding-top: 50px;
+    }
+    
+    .s2 {
+      height: 150vh;
+    }
+      
+  } 

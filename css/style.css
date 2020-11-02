@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
   
@@ -28,6 +30,50 @@
     border-bottom: 3px solid black;
   }
   
+
+
+    /*----- Navigation Bar -----*/
+  .navbar {
+    font-family: sans-serif;
+    font-size: 30px;
+    letter-spacing: normal;
+    word-spacing: 61px;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    z-index: 100;
+    width: 100%;
+    background-color: #efc5bc;
+    padding: 7px 0;
+  }
+  
+  .navbar a {
+      width: 100vw;
+  }
+  
+  
+  a {
+    color: #384b66;
+    text-decoration:none;
+  }
+  
+  
+  a:hover {
+    color: white;
+    text-decoration:none;
+  }
+  
+  a:active {
+    color: #efc5bc;
+    text-decoration:underline;
+  }
+
+
+
+
+/*----- Home Page ----*/
+
   .main-header h1 {
     padding-bottom:100px;
     font-size: 40px;
@@ -75,7 +121,13 @@
     width: 50px;
     padding: 200px;
   }
-  
+
+
+
+
+
+/*----- Portfolio Page ----*/
+
   .portfolio-heading {
     font-family: sans-serif;
     font-weight: normal;
@@ -101,7 +153,12 @@
     display: inline-block;
   }
   
-  
+
+  .port-title {
+    color: #efc5bc;
+    padding-bottom: 15px;
+  }
+
   .box1 {
     float: left;
   }
@@ -118,6 +175,17 @@
     height: 100%;
     width: 100%;
     border-radius: 15px;
+  }
+
+
+  /*----- Project Buttons -----*/
+  
+  .project-buttons {
+    position: relative;
+    bottom: auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: 26em;
   }
   
   .live-button {
@@ -174,86 +242,10 @@
   }
   
   
-  /*----- Navigation Bar -----*/
-  .navbar {
-    font-family: sans-serif;
-    font-size: 30px;
-    letter-spacing: normal;
-    word-spacing: 61px;
-    margin-top: 0;
-    position: fixed;
-    top: 0;
-    text-align: center;
-    z-index: 100;
-    width: 100%;
-    background-color: #efc5bc;
-    padding-top: 7px;
-    padding-bottom: 7px;
-  }
-  
-  .navbar a {
-      width: 100vw;
-    /* display: inline-block; */
-  }
-  
-  /*
-  .navbar2 {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 30px;
-    letter-spacing: normal;
-    word-spacing: 60px;
-    padding-top: 15px;
-    padding-bottom: 125px;
-  }
-  */
-  
-  
-  a {
-    color: #384b66;
-    text-decoration:none;
-  }
-  
-  /*
-  a:visited {
-    color: red;
-    text-decoration:none;
-  }
-  */
-  
-  a:hover {
-    color: white;
-    text-decoration:none;
-  }
-  
-  a:active {
-    color: #efc5bc;
-    text-decoration:underline;
-  }
-  
-  
-  /*----- Project Buttons -----*/
-  
-  .project-buttons {
-    position: relative;
-    bottom: auto;
-    display: inline-block;
-    text-align: center;
-    margin-left: 26em;
-  }
   
   
   
-  
-  
-  
-  
-  /* Social Buttons CSS*/
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
+  /* Contact Page / Social Buttons*/
   
   body {
     background: #394C65;
@@ -331,11 +323,6 @@
     transform: scale(0.90);
   }
   
-  
-  .social-media a:hover .fa-facebook {
-    color: #3b5998;
-  }
-  
   .social-media a:hover .fa-linkedin {
   /*  color: #00acee;*/
     color: #0072b1;
@@ -344,10 +331,7 @@
   .social-media a:hover .fa-medium {
     color: #3cb371;
   }
-  
-  .social-media a:hover .fa-instagram {
-    color: #E1306C;
-  }
+
   
   .social-media a:hover .fa-youtube {
     color: #f00;
@@ -358,14 +342,14 @@
   }
   
   
-  /****** Float Clearfix ******/
+  /* ***** Float Clearfix *****
   
   .group:after {
     content: "";
     display: table;
     clear: both;
   }
-  
+   */
   
   /****** Media Queries ******/
   
@@ -383,7 +367,8 @@
     }
     
     .s2 {
-      height: 150vh;
+      height: 200vh;
+      
     }
       
   } 
